@@ -1,0 +1,132 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteTop';
+    src: url("fonts/Comfortaa-VariableFont_wght.ttf");
+}
+
+/*Formatação geral*/
+body{
+    background-color: #DFE9F5;
+    width: 100%;
+    padding: 0px;
+    height: 1100px;
+}
+
+/*Formatação do CABEÇALHO*/
+header#cabecalho{
+    background-color: #90B1DB;
+    background-size: contain;
+    width: auto;
+    height: 120px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: 0px;
+}
+
+/*Formatação da CAIXA DE CADASTRO*/
+div#caixa-fundo{
+    width: 600px;
+    height: 700px;
+    background-color: #90B1DB;
+    margin: -30px 100px 0px 360px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 60px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+article#caixa-cadastro{
+    width: 600px;
+    height: 700px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px #0066A2;
+}
+article#caixa-cadastro a.botao-continuar{
+    display: block;
+    position: relative;
+    left: 40px;
+    top: -20px;
+    text-decoration: none;
+}
+
+/*Formatação do FORMULÁRIO*/
+div.esquerda{
+    display: block;
+    position: relative;
+    float: left;
+}
+div.direita{
+    display: block;
+    position: relative;
+    float: right;
+    left: -50px;
+}
+.botao{
+    display: block;
+    position: relative;
+    left: 190px;
+    top: -30px;
+
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    font-family: 'FonteTop', sans-serif;
+    text-shadow: 0px 0px 10px #90B1DB;
+    font-size: 17pt;
+    margin-top: 50px;
+}
+.botao:hover{
+    background-color: #90B1DB;
+    border-color: #90B1DB;
+    color: #0066A2;
+}
+fieldset#dados{
+    border: none;
+    display: block;
+    position: relative;
+    padding: 30px;
+}
+fieldset#dados h1{
+    font-family: 'FonteTop', sans-serif;
+    font-size: 25pt;
+    text-align: center;
+    margin-bottom: 50px;
+
+    color: #0066A2;
+    text-shadow: 1px 1px 1px #90B1DB;
+}
+fieldset#dados p{
+    font-family: 'FonteTop', sans-serif;
+    font-size: 8pt;
+    text-align: left;
+    margin-bottom: 20px;
+
+    color: #0066A2;
+    text-shadow:1px 1px 1px #90B1DB;
+}
+fieldset#dados input{
+    margin-top: 3px;
+    padding: 5px;
+    outline: none;
+    border-radius: 3px;
+    border: #DFE9F5;
+}
+fieldset#dados input:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+fieldset#dados .aviso{
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+fieldset#dados .aviso:hover{
+    color: red;
+}
+fieldset#dados select{
+    margin-top: 3px;
+    border: none;
+    padding: 4px;
+}

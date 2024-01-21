@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteTop';
+    src: url("fonts/Comfortaa-VariableFont_wght.ttf");
+}
+
+/*Formatação geral*/
+body{
+    background-color: #dfe9f5;
+    width: auto;
+    padding: 0px;
+    height: 300px;
+}
+
+/*Formatação do CABEÇALHO*/
+header#cabecalho{
+    background-color: #0066A2;
+    background-size: contain;
+    width: auto;
+    height: 80px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+/*Formatação da CAIXA DE LOGIN*/
+div#caixa-fundo{
+    width: 500px;
+    height: 500px;
+    background-color: #0066A2;
+    margin: -50px 100px 0px 410px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+    padding: 50px 10px 10px 10px;
+    border-radius: 20px;
+    margin-bottom: -100px;
+}
+
+article#caixa-login{
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px #90B1DB;
+}
+
+/*Formatação do FORMULÁRIO*/
+.botao{
+    display: block;
+    position: relative;
+    left: 125px;
+    top: -70px;
+
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    font-family: 'FonteTop', sans-serif;
+    text-shadow: 0px 0px 10px #90B1DB;
+    font-size: 17pt;
+    margin-top: 50px;
+}
+.botao:hover{
+    background-color: #90B1DB;
+    border-color: #90B1DB;
+    color: #0066A2;
+}
+fieldset#dados{
+    border: none;
+    display: block;
+    position: relative;
+    padding: 30px;
+}
+fieldset#dados h1{
+    font-family: 'FonteTop', sans-serif;
+    font-size: 35pt;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    text-decoration: underline;
+
+    color: #0066A2;
+    text-shadow: 1px 1px 5px #90B1DB;
+}
+fieldset#dados p{
+    font-family: 'FonteTop', sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    margin-bottom: 25px;
+
+    color: #0066A2;
+    text-shadow:1px 1px 1px #90B1DB;
+}
+fieldset#dados input{
+    margin-top: 10px;
+    padding: 10px;
+    outline: none;
+    border-radius: 3px;
+    border: #DFE9F5;
+    font-size: 10pt;
+}
+fieldset#dados input:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+fieldset#dados select{
+    margin-top: 3px;
+    border: none;
+    padding: 4px;
+}
+
+fieldset#dados a{
+    font-size: 8pt;
+}

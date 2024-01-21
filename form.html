@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Área de cadastro</title>
+    <script language="javascript" src="form.js"></script>
+</head>
+<body>
+<div id="interface">
+    <header id="cabecalho"></header>
+
+    <div id="caixa-fundo">
+    <article id="caixa-cadastro">
+        <form method="post" id="formulario" action="mailto:taleszoned@gmail.com">
+            <fieldset id="dados">
+                <h1>Dados Pessoais</h1>
+                <div class="esquerda">
+                    <p><label for="cNome">Nome</label><br><input type="text" name="tNome" id="cNome" size="15" maxlength="10"></p>
+                    <p><label for="cUser">Nome de Usuário</label><br><input type="text" name="tUser" id="cUser" placeholder="_username"></p>
+                    <p><label for="cEmail">E-mail</label><br><input type="email" name="tEmail" id="cEmail" maxlength="30" placeholder="seuemail@mail.com"></p>
+                    <p><label for="cConfEmail">Confirme o E-mail</label><br><input type="email" name="tConfEmail" id="cConfEmail" maxlength="30" placeholder="seuemail@mail.com"></p>
+                    <p><label for="cSenha">Senha</label><br><input type="password" name="tSenha" id="cSenha" size="10" maxlength="8"></p>
+                    <p class="aviso">Sua senha deve ter 8 digitos</p>
+                    <p><input type="checkbox" name="tTermos" id="cTermos" checked>
+                        <label for="cTermos">Li e aceito todos os <a href="">termos de uso</a> e as <a href="">políticas de usuário</a>.</label></p>
+                    <p><input type="checkbox" name="tNot" id="cNot">
+                        <label for="cNot">Quero receber notícias e atualizações por e-mail</label></p>
+                </div>
+                <div class="direita">
+                    <p><label for="cSobre">Sobrenome</label><br><input type="text" name="tSobre" id="cSobre" size="15" maxlength="15"></p>
+                    <p><label for="cNasc">Data de nascimento</label><br><input type="date" name="tNasc" id="cNasc"></p>
+                    <p><label for="cSexo">Sexo</label><br>
+                        <select name="tSexo" id="cSexo">
+                            <option value="masc">Masculino</option>
+                            <option value="fem">Feminino</option>
+                            <option value="naoInf">Não informar</option>
+                    </select></p>
+                </div>
+            </fieldset>
+            <button class="botao" class="botao-continuar" type="button" onclick="verificarFormulario()">CADASTRAR</button>
+        </form>
+    </article>
+</div>
+</div>
+</body>
+</html>
